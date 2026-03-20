@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-// Программа для демонстрации персонализированного "Hello World"
-// Исправлено: удалено 'using namespace std' для большей ясности кода
+// Program for demonstrating personalized "Hello World".
+// Refactored: removed using namespace std for better code clarity.
 int main()
 {    std::string name;  // Variable to store user's name
     // Prompt user for their name
