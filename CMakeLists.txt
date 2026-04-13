@@ -9,3 +9,9 @@ add_subdirectory(formatter_ex_lib)
 add_subdirectory(solver_lib)
 add_subdirectory(hello_world_application)
 add_subdirectory(solver_application)
+install(TARGETS formatter formatter_ex solver_lib
+ARCHIVE DESTINATION lib)
+
+install(TARGETS hello_world solver
+RUNTIME DESTINATION bin)
+
