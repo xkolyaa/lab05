@@ -9,16 +9,13 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Install CMake
-      run: choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y
+    - uses: actions/checkout@v4
 
     - name: Configure
-      run: cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
+      run: cmake -S . -B build -DCMAKE_INSTALL_PREFIX=_install
 
     - name: Build
-      run: cmake --build _build --config Release
+      run: cmake --build build --config Release
 
     - name: Install
-      run: cmake --build _build --target install --config Release
+      run: cmake --build build --target install --config Release
