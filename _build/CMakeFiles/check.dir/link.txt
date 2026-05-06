@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wno-error CMakeFiles/check.dir/tests/test1.cpp.o -o check  solver_lib/libsolver_lib.a third-party/gtest/googlemock/gtest/libgtest_main.a third-party/gtest/googlemock/gtest/libgtest.a 
