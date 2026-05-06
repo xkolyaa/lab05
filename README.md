@@ -1,4 +1,2 @@
-![Linux](https://github.com/xkolyaa/lab04/actions/workflows/linux.yml/badge.svg)
-![Windows](https://github.com/xkolyaa/lab04/actions/workflows/windows.yml/badge.svg)
-[![Build Status](https://appveyor.com${GITHUB_USERNAME}/lab04?branch=master&svg=true)](https://appveyor.com${GITHUB_USERNAME}/lab04)
+[![Coverage Status](https://coveralls.io/repos/github/xkolyaa/lab05/badge.svg?branch=master)](https://coveralls.io/github/xkolyaa/lab05?branch=master)
 # Laboratory work IV 
