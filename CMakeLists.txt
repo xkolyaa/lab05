@@ -26,3 +26,7 @@ if(BUILD_TESTS)
   target_link_libraries(check solver_lib gtest_main)
   add_test(NAME check COMMAND check)
 endif()
+
+add_library(banking STATIC banking/Account.cpp banking/Transaction.cpp)
+target_include_directories(banking PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/banking)
+target_link_libraries(check banking gmock_main)
